@@ -1,0 +1,199 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+  ::-webkit-scrollbar
+{
+    width: 6px;
+    height: 6%;
+    background-color: #00baf2;
+    border-radius: 20px;
+}
+::-webkit-scrollbar-thumb {
+    background: red; 
+    border-radius: 100px;
+}
+ header {
+    position: relative;
+    z-index: 10;
+    background: #fff;
+    box-sizing: border-box;
+    width: 100%;
+
+} 
+
+  body
+  {
+    margin: o;
+    font-family: 'Poppins', sans-serif;
+  }
+  .navbar{
+    height: 75px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  
+  }
+  .left{
+    width: 15%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+ 
+}
+.middle{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 80px;
+   
+    }
+.right{
+        width: 20%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+.sublink{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+        font-size: 15px;
+        padding: 12px;
+        border-width: 0px;
+        width: auto;
+        height: 5px;
+        margin: 5px;
+       
+       
+       
+    }
+    .sublink:hover{
+   box-shadow: black;
+   width: fit-content;
+   height: fit-content;
+ border: 0px solid;
+ background-color: #f9f9f9;
+      
+    }
+.account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00baf2;
+    border-radius: 50px;
+    padding: 2px 2px 2px 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+
+    }
+    .account:hover{
+        background-color: #002970;
+    }
+ .avatar{
+        margin-left: 10px;
+        color: #002970;
+    }
+    .avatar:hover{
+        color:#00baf2; 
+    }
+ .nokyc{
+        height: 48px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f6f6f6;
+        font-size: 18px;
+    }
+.wallet{
+    font-size: 15px;
+    font-weight: 600;
+  
+}
+    .section2{
+    
+        width: 100%;
+        height: 1260px;
+        display: flex;
+        
+
+    }
+    .leftsection{
+    
+        width: 50%;
+        height: 500px;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    padding-top: 100px;
+        width: 650px;
+    }
+    .paytext{
+        
+        width: 80px;
+        border-radius: 16px;
+        box-shadow: 0 5px 20px rgb(0 41 112 / 10%);
+    }
+    .para{
+        padding-top: 10px;
+        width: 475px;
+        margin-bottom: 40px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+
+    h1{
+        font-size: 50px;
+        font-weight: 700px;
+        line-height: 65px;;
+    }
+    .rightsection{
+        
+        position: absolute;
+        top: 250px;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+
+
+    .btn{
+        height: 44px;
+        border-radius: 50px;
+        background-color: black;
+        color: white;
+        padding: 0px 24px;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+   
+
+    .fa-brands{
+        padding: 0px 0px 0px 10px;
+    }
+    .btn:hover{
+        background-color: white;
+        color: black;
+
+    }
+
+    .right-section{
+        display: flex;
+        justify-content: right;
+        align-items: right;
+    }
